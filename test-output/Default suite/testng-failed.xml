@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WebAutomation.Testcases.UserRegistration">
+      <class name="WebAutomation.Testcases.CommunityPollTest">
         <methods>
-          <include name="userRegister"/>
           <include name="tearDown"/>
-          <include name="userLogin"/>
+          <include name="communityPollwithLogin" invocation-numbers="1 2 3"/>
           <include name="initDriver"/>
         </methods>
-      </class> <!-- WebAutomation.Testcases.UserRegistration -->
+      </class> <!-- WebAutomation.Testcases.CommunityPollTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

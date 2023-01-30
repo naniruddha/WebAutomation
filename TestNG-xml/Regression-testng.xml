@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<groups>
+		<run>
+			<include name="Regression"></include>
+		</run>
+	</groups>
+	<test thread-count="5" name="Currency Conversion Test">
+		<classes>
+			<class name="WebAutomation.Testcases.CurrencyConversion" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Community Poll Test">
+		<classes>
+			<class name="WebAutomation.Testcases.CommunityPollTest" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Add To Cart Test">
+		<classes>
+			<class name="WebAutomation.Testcases.AddingToCart" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

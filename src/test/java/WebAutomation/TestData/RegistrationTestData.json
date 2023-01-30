@@ -1,0 +1,26 @@
+[
+{ 
+  "gender":"male",
+  "firstname":"Rahul",
+  "lastname":"Nellutla",
+  "day":"6",
+  "month":"February",
+  "year":"1997",
+  "email":"eywaa@gmail.com",
+  "company":"OpenText",
+  "password":"hurtlocker",
+  "cnfpassword":"hurtlocker"  
+} ,
+{ 
+  "gender":"female",
+  "firstname":"Deepika",
+  "lastname":"Nellutla",
+  "day":"9",
+  "month":"April",
+  "year":"1992",
+  "email":"awaar@gmail.com",
+  "company":"AFour",
+  "password":"hurtlocker",
+  "cnfpassword":"hurtlocker"
+}
+]
