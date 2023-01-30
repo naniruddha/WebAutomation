@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\RAHUL\eclipse-workspace\WebAutomation\Regression-testng.xml</span>
+                    <span>M:\WebAutomation\TestNG-xml\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,36 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,  4 skipped,  2 passed</span>
+                    <span class="method-stats">7 methods, 3 failed,   4 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="WebAutomation.Testcases.CommunityPollTest" class="method navigator-link" hash-for-method="communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Good})">communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Good})</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="WebAutomation.Testcases.AddingToCart" class="method navigator-link" hash-for-method="AddItemToCart({searchtext=HTC one, password=hurtlocker, displaytext=HTC One Mini Blue, email=eywaa@gmail.com})">AddItemToCart({searchtext=HTC one, password=hurtlocker, displaytext=HTC One Mini Blue, email=eywaa@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="WebAutomation.Testcases.CommunityPollTest" class="method navigator-link" hash-for-method="communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Poor})">communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Poor})</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="WebAutomation.Testcases.CommunityPollTest" class="method navigator-link" hash-for-method="communityPollwithLogin({password=hurtlocker, email=eywaa@gmail.com, option=Excellent})">communityPollwithLogin({password=hurtlocker, email=eywaa@gmail.com, option=Excellent})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="WebAutomation.Testcases.CommunityPollTest" class="method navigator-link" hash-for-method="communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Very Bad})">communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Very Bad})</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="WebAutomation.Testcases.CommunityPollTest" class="method navigator-link" hash-for-method="communityPollwithLogin({password=hurtlocker, email=awaar@gmail.com, option=Good})">communityPollwithLogin({password=hurtlocker, email=awaar@gmail.com, option=Good})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="WebAutomation.Testcases.CommunityPollTest" class="method navigator-link" hash-for-method="communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Excellent})">communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Excellent})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -132,12 +127,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="WebAutomation.Testcases.CurrencyConversion" class="method navigator-link" hash-for-method="currencyConvTest({symbol=€, currency=Euro})">currencyConvTest({symbol=€, currency=Euro})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="WebAutomation.Testcases.CommunityPollTest" class="method navigator-link" hash-for-method="communityPollwithoutLogin({password=hurtlocker, email=awaar@gmail.com, option=Good})">communityPollwithoutLogin({password=hurtlocker, email=awaar@gmail.com, option=Good})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="WebAutomation.Testcases.CommunityPollTest" class="method navigator-link" hash-for-method="communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Excellent})">communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Excellent})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="WebAutomation.Testcases.CurrencyConversion" class="method navigator-link" hash-for-method="currencyConvTest({symbol=$, currency=US Dollar})">currencyConvTest({symbol=$, currency=US Dollar})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="WebAutomation.Testcases.CurrencyConversion" class="method navigator-link" hash-for-method="currencyConvTest({symbol=€, currency=Euro})">currencyConvTest({symbol=€, currency=Euro})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -152,82 +157,154 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
+              <span class="class-name">WebAutomation.Testcases.AddingToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddItemToCart({searchtext=HTC one, password=hurtlocker, displaytext=HTC One Mini Blue, email=eywaa@gmail.com})">
+                  </a> <!-- AddItemToCart({searchtext=HTC one, password=hurtlocker, displaytext=HTC One Mini Blue, email=eywaa@gmail.com}) -->
+                  <span class="method-name">AddItemToCart</span>
+                  <span class="parameters">({searchtext=HTC one, password=hurtlocker, displaytext=HTC One Mini Blue, email=eywaa@gmail.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: .ico-account&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at WebAutomation.GenericUtilities.CommonFunctions.waitForElementToAppear(CommonFunctions.java:61)
+	at WebAutomation.PageObjects.HomePage.getLoginStatus(HomePage.java:47)
+	at WebAutomation.Testcases.AddingToCart.AddItemToCart(AddingToCart.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.ico-account&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee77628cd3899c13db328e4027128f6c, findElement {using=css selector, value=.ico-account}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58827}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58827/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee77628cd3899c13db328e4027128f6c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 31 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">WebAutomation.Testcases.CommunityPollTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Good})">
-                  </a> <!-- communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Good}) -->
-                  <span class="method-name">communityPollwithoutLogin</span>
-                  <span class="parameters">({password=hurtlocker, email=eywaa@gmail.com, option=Good})</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
-	at WebAutomation.TestUtilities.BaseTest.initDriver(BaseTest.java:48)
+                  <a name="communityPollwithLogin({password=hurtlocker, email=eywaa@gmail.com, option=Excellent})">
+                  </a> <!-- communityPollwithLogin({password=hurtlocker, email=eywaa@gmail.com, option=Excellent}) -->
+                  <span class="method-name">communityPollwithLogin</span>
+                  <span class="parameters">({password=hurtlocker, email=eywaa@gmail.com, option=Excellent})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#pollanswers-1&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4f4b8d94d83bde40e3d7a34e601da80, findElement {using=css selector, value=#pollanswers-1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58703/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4f4b8d94d83bde40e3d7a34e601da80
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at WebAutomation.GenericUtilities.CommonFunctions.selectPollOption(CommonFunctions.java:83)
+	at WebAutomation.PageObjects.HomePage.getPollMessage(HomePage.java:74)
+	at WebAutomation.Testcases.CommunityPollTest.communityPollwithLogin(CommunityPollTest.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 21 stack frames
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Poor})">
-                  </a> <!-- communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Poor}) -->
-                  <span class="method-name">communityPollwithoutLogin</span>
-                  <span class="parameters">({password=hurtlocker, email=eywaa@gmail.com, option=Poor})</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
-	at WebAutomation.TestUtilities.BaseTest.initDriver(BaseTest.java:48)
+                  <a name="communityPollwithLogin({password=hurtlocker, email=awaar@gmail.com, option=Good})">
+                  </a> <!-- communityPollwithLogin({password=hurtlocker, email=awaar@gmail.com, option=Good}) -->
+                  <span class="method-name">communityPollwithLogin</span>
+                  <span class="parameters">({password=hurtlocker, email=awaar@gmail.com, option=Good})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#pollanswers-2&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [afbd3da44850deef0072e3962c124750, findElement {using=css selector, value=#pollanswers-2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58740/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: afbd3da44850deef0072e3962c124750
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at WebAutomation.GenericUtilities.CommonFunctions.selectPollOption(CommonFunctions.java:85)
+	at WebAutomation.PageObjects.HomePage.getPollMessage(HomePage.java:74)
+	at WebAutomation.Testcases.CommunityPollTest.communityPollwithLogin(CommunityPollTest.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 21 stack frames
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">WebAutomation.Testcases.CommunityPollTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Very Bad})">
-                  </a> <!-- communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Very Bad}) -->
+                  <a name="communityPollwithoutLogin({password=hurtlocker, email=awaar@gmail.com, option=Good})">
+                  </a> <!-- communityPollwithoutLogin({password=hurtlocker, email=awaar@gmail.com, option=Good}) -->
                   <span class="method-name">communityPollwithoutLogin</span>
-                  <span class="parameters">({password=hurtlocker, email=eywaa@gmail.com, option=Very Bad})</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
-	at WebAutomation.TestUtilities.BaseTest.initDriver(BaseTest.java:48)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
+                  <span class="parameters">({password=hurtlocker, email=awaar@gmail.com, option=Good})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -236,26 +313,10 @@
                   </a> <!-- communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Excellent}) -->
                   <span class="method-name">communityPollwithoutLogin</span>
                   <span class="parameters">({password=hurtlocker, email=eywaa@gmail.com, option=Excellent})</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
-	at WebAutomation.TestUtilities.BaseTest.initDriver(BaseTest.java:48)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -264,18 +325,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="currencyConvTest({symbol=€, currency=Euro})">
-                  </a> <!-- currencyConvTest({symbol=€, currency=Euro}) -->
-                  <span class="method-name">currencyConvTest</span>
-                  <span class="parameters">({symbol=€, currency=Euro})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="currencyConvTest({symbol=$, currency=US Dollar})">
                   </a> <!-- currencyConvTest({symbol=$, currency=US Dollar}) -->
                   <span class="method-name">currencyConvTest</span>
                   <span class="parameters">({symbol=$, currency=US Dollar})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="currencyConvTest({symbol=€, currency=Euro})">
+                  </a> <!-- currencyConvTest({symbol=€, currency=Euro}) -->
+                  <span class="method-name">currencyConvTest</span>
+                  <span class="parameters">({symbol=€, currency=Euro})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -283,34 +344,27 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\RAHUL\eclipse-workspace\WebAutomation\Regression-testng.xml</span>
+            <span class="header-content">M:\WebAutomation\TestNG-xml\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;Regression&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;Regression&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Currency Conversion Test&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;WebAutomation.TestUtilities.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Currency Conversion Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;WebAutomation.Testcases.CurrencyConversion&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Currency Conversion Test --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Community Poll Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Community Poll Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;WebAutomation.Testcases.CommunityPollTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Community Poll Test --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Add To Cart Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add To Cart Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;WebAutomation.Testcases.AddingToCart&quot;/&gt;
     &lt;/classes&gt;
@@ -370,31 +424,35 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'currencyConvTest')
-data.setCell(0, 2, 'WebAutomation.Testcases.CurrencyConversion')
-data.setCell(0, 3, 1680);
+data.setCell(0, 1, 'AddItemToCart')
+data.setCell(0, 2, 'WebAutomation.Testcases.AddingToCart')
+data.setCell(0, 3, 11357);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'currencyConvTest')
-data.setCell(1, 2, 'WebAutomation.Testcases.CurrencyConversion')
-data.setCell(1, 3, 617);
+data.setCell(1, 1, 'communityPollwithLogin')
+data.setCell(1, 2, 'WebAutomation.Testcases.CommunityPollTest')
+data.setCell(1, 3, 6852);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'communityPollwithoutLogin')
+data.setCell(2, 1, 'communityPollwithLogin')
 data.setCell(2, 2, 'WebAutomation.Testcases.CommunityPollTest')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 6183);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'communityPollwithoutLogin')
-data.setCell(3, 2, 'WebAutomation.Testcases.CommunityPollTest')
-data.setCell(3, 3, 1);
+data.setCell(3, 1, 'currencyConvTest')
+data.setCell(3, 2, 'WebAutomation.Testcases.CurrencyConversion')
+data.setCell(3, 3, 1016);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'communityPollwithoutLogin')
 data.setCell(4, 2, 'WebAutomation.Testcases.CommunityPollTest')
-data.setCell(4, 3, 1);
+data.setCell(4, 3, 714);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'communityPollwithoutLogin')
 data.setCell(5, 2, 'WebAutomation.Testcases.CommunityPollTest')
-data.setCell(5, 3, 0);
+data.setCell(5, 3, 697);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'currencyConvTest')
+data.setCell(6, 2, 'WebAutomation.Testcases.CurrencyConversion')
+data.setCell(6, 3, 142);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -414,23 +472,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">WebAutomation.Testcases.CommunityPollTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">communityPollwithLogin</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">WebAutomation.Testcases.AddingToCart</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">AddItemToCart</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -439,101 +483,102 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">WebAutomation.Testcases.CommunityPollTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">WebAutomation.Testcases.CurrencyConversion</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">initDriver</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">WebAutomation.Testcases.CurrencyConversion</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver</span>
-                <span class="method-start">1 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">WebAutomation.Testcases.CommunityPollTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Excellent})</span>
-                <span class="method-start">709 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown</span>
-                <span class="method-start">747 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">initDriver</span>
-                <span class="method-start">769 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Good})</span>
-                <span class="method-start">829 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown</span>
-                <span class="method-start">868 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver</span>
-                <span class="method-start">895 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Poor})</span>
-                <span class="method-start">12593 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">12610 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">WebAutomation.Testcases.CurrencyConversion</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">currencyConvTest({symbol=$, currency=US Dollar})</span>
-                <span class="method-start">12919 ms</span>
+                <span class="method-start">2631 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">13543 ms</span>
+                <span class="method-start">2782 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver</span>
-                <span class="method-start">13878 ms</span>
+                <span class="method-start">19039 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">currencyConvTest({symbol=€, currency=Euro})</span>
+                <span class="method-start">21515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22532 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">WebAutomation.Testcases.CommunityPollTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver</span>
-                <span class="method-start">14165 ms</span>
+                <span class="method-start">38961 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Very Bad})</span>
-                <span class="method-start">20782 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">communityPollwithLogin({password=hurtlocker, email=eywaa@gmail.com, option=Excellent})</span>
+                <span class="method-start">40544 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20802 ms</span>
+                <span class="method-start">47561 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver</span>
+                <span class="method-start">63762 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">communityPollwithLogin({password=hurtlocker, email=awaar@gmail.com, option=Good})</span>
+                <span class="method-start">65271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver</span>
+                <span class="method-start">71730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">communityPollwithoutLogin({password=hurtlocker, email=eywaa@gmail.com, option=Excellent})</span>
+                <span class="method-start">73327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74042 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver</span>
+                <span class="method-start">90268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">communityPollwithoutLogin({password=hurtlocker, email=awaar@gmail.com, option=Good})</span>
+                <span class="method-start">92862 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93560 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">WebAutomation.Testcases.CurrencyConversion</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">WebAutomation.Testcases.AddingToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver</span>
+                <span class="method-start">109847 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">currencyConvTest({symbol=€, currency=Euro})</span>
-                <span class="method-start">21344 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddItemToCart({searchtext=HTC one, password=hurtlocker, displaytext=HTC One Mini Blue, email=eywaa@gmail.com})</span>
+                <span class="method-start">111411 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23032 ms</span>
+                <span class="method-start">122949 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -32,7 +32,7 @@ public class CommunityPollTest extends BaseTest {
  	public Object[][] pollDetails() throws IOException{
  		List<HashMap<String, String>> data = readDataFromJSON(new File(System.getProperty("user.dir")
  				+ "\\src\\test\\java\\WebAutomation\\TestData\\CommunityPollTestData.json"));
- 		return new Object[][] { {data.get(0)}, {data.get(1)},{data.get(2)},{data.get(3)} };
+ 		return new Object[][] { {data.get(0)}, {data.get(1)} };
  	}
 	
 

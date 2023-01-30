@@ -29,7 +29,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class UserRegistration extends BaseTest {
 
-	@Test(dataProvider = "registerDetails", priority = 1)
+	@Test(dataProvider = "registerDetails", priority = -1)
 	public void userRegister(HashMap<String, String> input) {
 		RegistrationPage rpage = landingPage.clickOnRegister();
 		RegistrationConfirmationPage cpage = rpage.performRegistration(input.get("gender"), input.get("firstname"),

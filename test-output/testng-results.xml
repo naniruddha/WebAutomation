@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="8" passed="2" failed="0" skipped="4">
+<testng-results ignored="0" total="7" passed="4" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-29T17:01:51 IST" name="Suite" finished-at="2023-01-29T17:02:18 IST" duration-ms="26958">
+  <suite started-at="2023-01-30T13:41:45 IST" name="Suite" finished-at="2023-01-30T13:44:04 IST" duration-ms="139351">
     <groups>
       <group name="Regression">
-        <method signature="CurrencyConversion.currencyConvTest(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@4686afc2]" name="currencyConvTest" class="WebAutomation.Testcases.CurrencyConversion"/>
-        <method signature="CommunityPollTest.communityPollwithoutLogin(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@645aa696]" name="communityPollwithoutLogin" class="WebAutomation.Testcases.CommunityPollTest"/>
+        <method signature="CurrencyConversion.currencyConvTest(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@27ff5d15]" name="currencyConvTest" class="WebAutomation.Testcases.CurrencyConversion"/>
+        <method signature="CommunityPollTest.communityPollwithoutLogin(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@169e6180]" name="communityPollwithoutLogin" class="WebAutomation.Testcases.CommunityPollTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2023-01-29T17:01:51 IST" name="Add To Cart Test" finished-at="2023-01-29T17:01:51 IST" duration-ms="37">
-    </test> <!-- Add To Cart Test -->
-    <test started-at="2023-01-29T17:01:51 IST" name="Currency Conversion Test" finished-at="2023-01-29T17:02:18 IST" duration-ms="26764">
+    <test started-at="2023-01-30T13:41:45 IST" name="Currency Conversion Test" finished-at="2023-01-30T13:42:24 IST" duration-ms="38936">
       <class name="WebAutomation.Testcases.CurrencyConversion">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@4686afc2]" started-at="2023-01-29T17:01:53 IST" name="initDriver" finished-at="2023-01-29T17:02:06 IST" duration-ms="12918" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@27ff5d15]" started-at="2023-01-30T13:41:45 IST" name="initDriver" finished-at="2023-01-30T13:41:48 IST" duration-ms="2630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="currencyConvTest(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@4686afc2]" started-at="2023-01-29T17:02:06 IST" name="currencyConvTest" data-provider="currencyDetails" finished-at="2023-01-29T17:02:06 IST" duration-ms="617" status="PASS">
+        <test-method signature="currencyConvTest(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@27ff5d15]" started-at="2023-01-30T13:41:48 IST" name="currencyConvTest" data-provider="currencyDetails" finished-at="2023-01-30T13:41:48 IST" duration-ms="142" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- currencyConvTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@4686afc2]" started-at="2023-01-29T17:02:06 IST" name="tearDown" finished-at="2023-01-29T17:02:07 IST" duration-ms="334" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@27ff5d15]" started-at="2023-01-30T13:41:48 IST" name="tearDown" finished-at="2023-01-30T13:42:04 IST" duration-ms="16255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@4686afc2]" started-at="2023-01-29T17:02:07 IST" name="initDriver" finished-at="2023-01-29T17:02:14 IST" duration-ms="7466" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@27ff5d15]" started-at="2023-01-30T13:42:04 IST" name="initDriver" finished-at="2023-01-30T13:42:07 IST" duration-ms="2476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="currencyConvTest(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@4686afc2]" started-at="2023-01-29T17:02:14 IST" name="currencyConvTest" data-provider="currencyDetails" finished-at="2023-01-29T17:02:16 IST" duration-ms="1680" status="PASS">
+        <test-method signature="currencyConvTest(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@27ff5d15]" started-at="2023-01-30T13:42:07 IST" name="currencyConvTest" data-provider="currencyDetails" finished-at="2023-01-30T13:42:08 IST" duration-ms="1016" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,62 +45,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- currencyConvTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@4686afc2]" started-at="2023-01-29T17:02:16 IST" name="tearDown" finished-at="2023-01-29T17:02:18 IST" duration-ms="2226" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.Testcases.CurrencyConversion@27ff5d15]" started-at="2023-01-30T13:42:08 IST" name="tearDown" finished-at="2023-01-30T13:42:24 IST" duration-ms="16181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- WebAutomation.Testcases.CurrencyConversion -->
     </test> <!-- Currency Conversion Test -->
-    <test started-at="2023-01-29T17:01:51 IST" name="Community Poll Test" finished-at="2023-01-29T17:02:18 IST" duration-ms="26948">
+    <test started-at="2023-01-30T13:42:24 IST" name="Community Poll Test" finished-at="2023-01-30T13:43:35 IST" duration-ms="70815">
       <class name="WebAutomation.Testcases.CommunityPollTest">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@645aa696]" started-at="2023-01-29T17:01:53 IST" name="initDriver" finished-at="2023-01-29T17:01:53 IST" duration-ms="648" status="FAIL">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at WebAutomation.TestUtilities.BaseTest.initDriver(BaseTest.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@169e6180]" started-at="2023-01-30T13:42:24 IST" name="initDriver" finished-at="2023-01-30T13:42:26 IST" duration-ms="1583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="communityPollwithoutLogin(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@645aa696]" started-at="2023-01-29T17:01:53 IST" name="communityPollwithoutLogin" data-provider="pollDetails" finished-at="2023-01-29T17:01:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="communityPollwithLogin(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@169e6180]" started-at="2023-01-30T13:42:26 IST" name="communityPollwithLogin" data-provider="pollDetails" finished-at="2023-01-30T13:42:33 IST" duration-ms="6852" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -110,30 +65,56 @@ at java.base/java.lang.Thread.run(Thread.java:833)
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalStateException">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#pollanswers-1"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4f4b8d94d83bde40e3d7a34e601da80, findElement {using=css selector, value=#pollanswers-1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58703/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4f4b8d94d83bde40e3d7a34e601da80]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at WebAutomation.TestUtilities.BaseTest.initDriver(BaseTest.java:48)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#pollanswers-1"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4f4b8d94d83bde40e3d7a34e601da80, findElement {using=css selector, value=#pollanswers-1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58703/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4f4b8d94d83bde40e3d7a34e601da80
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at WebAutomation.GenericUtilities.CommonFunctions.selectPollOption(CommonFunctions.java:83)
+at WebAutomation.PageObjects.HomePage.getPollMessage(HomePage.java:74)
+at WebAutomation.Testcases.CommunityPollTest.communityPollwithLogin(CommunityPollTest.java:27)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
@@ -144,138 +125,90 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- communityPollwithoutLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@645aa696]" started-at="2023-01-29T17:01:54 IST" name="tearDown" finished-at="2023-01-29T17:01:54 IST" duration-ms="2" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
-at WebAutomation.TestUtilities.BaseTest.tearDown(BaseTest.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:613)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- communityPollwithLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@169e6180]" started-at="2023-01-30T13:42:33 IST" name="tearDown" finished-at="2023-01-30T13:42:49 IST" duration-ms="16200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@645aa696]" started-at="2023-01-29T17:01:54 IST" name="initDriver" finished-at="2023-01-29T17:01:54 IST" duration-ms="51" status="FAIL">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at WebAutomation.TestUtilities.BaseTest.initDriver(BaseTest.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@169e6180]" started-at="2023-01-30T13:42:49 IST" name="initDriver" finished-at="2023-01-30T13:42:51 IST" duration-ms="1509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="communityPollwithoutLogin(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@645aa696]" started-at="2023-01-29T17:01:54 IST" name="communityPollwithoutLogin" data-provider="pollDetails" finished-at="2023-01-29T17:01:54 IST" duration-ms="1" status="SKIP">
+        <test-method signature="communityPollwithLogin(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@169e6180]" started-at="2023-01-30T13:42:51 IST" name="communityPollwithLogin" data-provider="pollDetails" finished-at="2023-01-30T13:42:57 IST" duration-ms="6183" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=hurtlocker, email=eywaa@gmail.com, option=Good}]]>
+                <![CDATA[{password=hurtlocker, email=awaar@gmail.com, option=Good}]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalStateException">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#pollanswers-2"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [afbd3da44850deef0072e3962c124750, findElement {using=css selector, value=#pollanswers-2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58740/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: afbd3da44850deef0072e3962c124750]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at WebAutomation.TestUtilities.BaseTest.initDriver(BaseTest.java:48)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#pollanswers-2"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [afbd3da44850deef0072e3962c124750, findElement {using=css selector, value=#pollanswers-2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58740/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: afbd3da44850deef0072e3962c124750
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at WebAutomation.GenericUtilities.CommonFunctions.selectPollOption(CommonFunctions.java:85)
+at WebAutomation.PageObjects.HomePage.getPollMessage(HomePage.java:74)
+at WebAutomation.Testcases.CommunityPollTest.communityPollwithLogin(CommunityPollTest.java:27)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
@@ -286,184 +219,166 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- communityPollwithoutLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@645aa696]" started-at="2023-01-29T17:01:54 IST" name="tearDown" finished-at="2023-01-29T17:01:54 IST" duration-ms="15" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
-at WebAutomation.TestUtilities.BaseTest.tearDown(BaseTest.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:613)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- communityPollwithLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@169e6180]" started-at="2023-01-30T13:42:57 IST" name="tearDown" finished-at="2023-01-30T13:42:57 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@645aa696]" started-at="2023-01-29T17:01:54 IST" name="initDriver" finished-at="2023-01-29T17:02:05 IST" duration-ms="11698" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@169e6180]" started-at="2023-01-30T13:42:57 IST" name="initDriver" finished-at="2023-01-30T13:42:59 IST" duration-ms="1597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="communityPollwithoutLogin(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@645aa696]" started-at="2023-01-29T17:02:05 IST" name="communityPollwithoutLogin" data-provider="pollDetails" finished-at="2023-01-29T17:02:05 IST" duration-ms="1" status="SKIP">
+        <test-method signature="communityPollwithoutLogin(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@169e6180]" started-at="2023-01-30T13:42:59 IST" name="communityPollwithoutLogin" data-provider="pollDetails" finished-at="2023-01-30T13:42:59 IST" duration-ms="714" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=hurtlocker, email=eywaa@gmail.com, option=Poor}]]>
+                <![CDATA[{password=hurtlocker, email=eywaa@gmail.com, option=Excellent}]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at WebAutomation.TestUtilities.BaseTest.initDriver(BaseTest.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- communityPollwithoutLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@645aa696]" started-at="2023-01-29T17:02:05 IST" name="tearDown" finished-at="2023-01-29T17:02:07 IST" duration-ms="1554" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@169e6180]" started-at="2023-01-30T13:42:59 IST" name="tearDown" finished-at="2023-01-30T13:43:16 IST" duration-ms="16225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@645aa696]" started-at="2023-01-29T17:02:07 IST" name="initDriver" finished-at="2023-01-29T17:02:14 IST" duration-ms="6617" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@169e6180]" started-at="2023-01-30T13:43:16 IST" name="initDriver" finished-at="2023-01-30T13:43:18 IST" duration-ms="2594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="communityPollwithoutLogin(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@645aa696]" started-at="2023-01-29T17:02:14 IST" name="communityPollwithoutLogin" data-provider="pollDetails" finished-at="2023-01-29T17:02:14 IST" duration-ms="1" status="SKIP">
+        <test-method signature="communityPollwithoutLogin(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@169e6180]" started-at="2023-01-30T13:43:18 IST" name="communityPollwithoutLogin" data-provider="pollDetails" finished-at="2023-01-30T13:43:19 IST" duration-ms="697" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=hurtlocker, email=eywaa@gmail.com, option=Very Bad}]]>
+                <![CDATA[{password=hurtlocker, email=awaar@gmail.com, option=Good}]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at WebAutomation.TestUtilities.BaseTest.initDriver(BaseTest.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- communityPollwithoutLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@645aa696]" started-at="2023-01-29T17:02:14 IST" name="tearDown" finished-at="2023-01-29T17:02:18 IST" duration-ms="4667" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.Testcases.CommunityPollTest@169e6180]" started-at="2023-01-30T13:43:19 IST" name="tearDown" finished-at="2023-01-30T13:43:35 IST" duration-ms="16213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- WebAutomation.Testcases.CommunityPollTest -->
     </test> <!-- Community Poll Test -->
+    <test started-at="2023-01-30T13:43:35 IST" name="Add To Cart Test" finished-at="2023-01-30T13:44:04 IST" duration-ms="29289">
+      <class name="WebAutomation.Testcases.AddingToCart">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:WebAutomation.Testcases.AddingToCart@a530d0a]" started-at="2023-01-30T13:43:35 IST" name="initDriver" finished-at="2023-01-30T13:43:37 IST" duration-ms="1563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="AddItemToCart(java.util.HashMap)[pri:0, instance:WebAutomation.Testcases.AddingToCart@a530d0a]" started-at="2023-01-30T13:43:37 IST" name="AddItemToCart" data-provider="cartDetails" finished-at="2023-01-30T13:43:48 IST" duration-ms="11357" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchtext=HTC one, password=hurtlocker, displaytext=HTC One Mini Blue, email=eywaa@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .ico-account' (tried for 5 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .ico-account' (tried for 5 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at WebAutomation.GenericUtilities.CommonFunctions.waitForElementToAppear(CommonFunctions.java:61)
+at WebAutomation.PageObjects.HomePage.getLoginStatus(HomePage.java:47)
+at WebAutomation.Testcases.AddingToCart.AddItemToCart(AddingToCart.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".ico-account"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee77628cd3899c13db328e4027128f6c, findElement {using=css selector, value=.ico-account}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58827}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58827/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee77628cd3899c13db328e4027128f6c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.Testcases.AddingToCart@a530d0a]" started-at="2023-01-30T13:43:48 IST" name="tearDown" finished-at="2023-01-30T13:44:04 IST" duration-ms="16184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebAutomation.Testcases.AddingToCart -->
+    </test> <!-- Add To Cart Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -5,7 +5,9 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
@@ -13,6 +15,8 @@ import java.util.Properties;
 import org.apache.commons.io.Charsets;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -43,11 +47,11 @@ public class BaseTest {
 		browser = prop.getProperty("browser");
 		System.out.println(browser);
 		if (browser.equals("chrome")) {
-//			WebDriverManager.chromedriver().setup();
-//			driver = new ChromeDriver();
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")
-					+ "\\src\\main\\java\\WebAutomation\\GenericUtilities\\chromedriver.exe");
+//			driver = new ChromeDriver();
+//			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")
+//					+ "\\src\\main\\java\\WebAutomation\\GenericUtilities\\chromedriver.exe");
 
 		} else if (browser.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
@@ -70,6 +74,17 @@ public class BaseTest {
 				new TypeReference<List<HashMap<String, String>>>() {
 				});
 		return data;
+	}
+	
+	public String getScreenshot(String testCaseName, WebDriver driver) throws IOException {
+		SimpleDateFormat formatter = new SimpleDateFormat("dd_MM_yyyyHHmm");  
+	    Date date = new Date();  
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		File source = ts.getScreenshotAs(OutputType.FILE);
+		File file = new File(System.getProperty("user.dir")+"//reports//"+testCaseName+"_"+formatter.format(date)+".png");
+		FileUtils.copyFile(source, file);
+		return System.getProperty("user.dir")+"//reports//"+testCaseName+"_"+formatter.format(date)+".png";
+		//return System.getProperty("user.dir")+"//reports//"+testCaseName+".png";
 	}
 
 	@AfterMethod(alwaysRun=true)

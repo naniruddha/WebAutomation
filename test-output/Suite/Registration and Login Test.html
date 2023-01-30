@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Community Poll Test</title>
+<title>TestNG:  Registration and Login Test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Community Poll Test</h2><table border='1' align="center">
+<h2 align='center'>Registration and Login Test</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jan 30 13:42:24 IST 2023</td>
+<td>Started on:</td><td>Mon Jan 30 12:33:30 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>70 seconds (70815 ms)</td>
+<tr><td>Total time:</td><td>45 seconds (45401 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='WebAutomation.Testcases.CommunityPollTest.communityPollwithLogin()'><b>communityPollwithLogin</b><br>Test class: WebAutomation.Testcases.CommunityPollTest<br>Parameters: {password=hurtlocker, email=eywaa@gmail.com, option=Excellent}</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#pollanswers-1&quot;}
+<td title='WebAutomation.Testcases.UserRegistration.userRegister()'><b>userRegister</b><br>Test class: WebAutomation.Testcases.UserRegistration<br>Parameters: {firstname=Rahul, password=hurtlocker, gender=male, month=February, year=1997, company=OpenText, cnfpassword=hurtlocker, day=6, email=eywaa@gmail.com, lastname=Nellutla}</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.result&quot;}
   (Session info: chrome=109.0.5414.120)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b4f4b8d94d83bde40e3d7a34e601da80, findElement {using=css selector, value=#pollanswers-1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58703/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b4f4b8d94d83bde40e3d7a34e601da80
+Command: [082c74d5daf7c0c3c432c5128691c657, findElement {using=css selector, value=.result}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58581}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58581/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 082c74d5daf7c0c3c432c5128691c657
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -99,21 +99,20 @@ Session ID: b4f4b8d94d83bde40e3d7a34e601da80
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at WebAutomation.GenericUtilities.CommonFunctions.selectPollOption(CommonFunctions.java:83)
-	at WebAutomation.PageObjects.HomePage.getPollMessage(HomePage.java:74)
-	at WebAutomation.Testcases.CommunityPollTest.communityPollwithLogin(CommunityPollTest.java:27)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
+	at WebAutomation.PageObjects.RegistrationConfirmationPage.getMessage(RegistrationConfirmationPage.java:25)
+	at WebAutomation.Testcases.UserRegistration.userRegister(UserRegistration.java:38)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1391067753", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1391067753'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#pollanswers-1&quot;}
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1052658892", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1052658892'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.result&quot;}
   (Session info: chrome=109.0.5414.120)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b4f4b8d94d83bde40e3d7a34e601da80, findElement {using=css selector, value=#pollanswers-1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58703}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58703/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b4f4b8d94d83bde40e3d7a34e601da80
+Command: [082c74d5daf7c0c3c432c5128691c657, findElement {using=css selector, value=.result}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58581}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58581/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 082c74d5daf7c0c3c432c5128691c657
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -132,10 +131,9 @@ Session ID: b4f4b8d94d83bde40e3d7a34e601da80
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at WebAutomation.GenericUtilities.CommonFunctions.selectPollOption(CommonFunctions.java:83)
-	at WebAutomation.PageObjects.HomePage.getPollMessage(HomePage.java:74)
-	at WebAutomation.Testcases.CommunityPollTest.communityPollwithLogin(CommunityPollTest.java:27)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
+	at WebAutomation.PageObjects.RegistrationConfirmationPage.getMessage(RegistrationConfirmationPage.java:25)
+	at WebAutomation.Testcases.UserRegistration.userRegister(UserRegistration.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -165,19 +163,19 @@ Session ID: b4f4b8d94d83bde40e3d7a34e601da80
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>6</td>
-<td>WebAutomation.Testcases.CommunityPollTest@169e6180</td></tr>
+<td>7</td>
+<td>WebAutomation.Testcases.UserRegistration@1e6454ec</td></tr>
 <tr>
-<td title='WebAutomation.Testcases.CommunityPollTest.communityPollwithLogin()'><b>communityPollwithLogin</b><br>Test class: WebAutomation.Testcases.CommunityPollTest<br>Parameters: {password=hurtlocker, email=awaar@gmail.com, option=Good}</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#pollanswers-2&quot;}
+<td title='WebAutomation.Testcases.UserRegistration.userRegister()'><b>userRegister</b><br>Test class: WebAutomation.Testcases.UserRegistration<br>Parameters: {firstname=Deepika, password=hurtlocker, gender=female, month=April, year=1992, company=AFour, cnfpassword=hurtlocker, day=9, email=awaar@gmail.com, lastname=Nellutla}</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.result&quot;}
   (Session info: chrome=109.0.5414.120)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [afbd3da44850deef0072e3962c124750, findElement {using=css selector, value=#pollanswers-2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58740/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: afbd3da44850deef0072e3962c124750
+Command: [5cd9fdb36c488009804932dc3adfa863, findElement {using=css selector, value=.result}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58605}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58605/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cd9fdb36c488009804932dc3adfa863
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -191,21 +189,20 @@ Session ID: afbd3da44850deef0072e3962c124750
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at WebAutomation.GenericUtilities.CommonFunctions.selectPollOption(CommonFunctions.java:85)
-	at WebAutomation.PageObjects.HomePage.getPollMessage(HomePage.java:74)
-	at WebAutomation.Testcases.CommunityPollTest.communityPollwithLogin(CommunityPollTest.java:27)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
+	at WebAutomation.PageObjects.RegistrationConfirmationPage.getMessage(RegistrationConfirmationPage.java:25)
+	at WebAutomation.Testcases.UserRegistration.userRegister(UserRegistration.java:38)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1143499107", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1143499107'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#pollanswers-2&quot;}
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace728370857", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace728370857'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.result&quot;}
   (Session info: chrome=109.0.5414.120)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [afbd3da44850deef0072e3962c124750, findElement {using=css selector, value=#pollanswers-2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58740/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: afbd3da44850deef0072e3962c124750
+Command: [5cd9fdb36c488009804932dc3adfa863, findElement {using=css selector, value=.result}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ANIRUD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58605}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58605/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cd9fdb36c488009804932dc3adfa863
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -224,10 +221,9 @@ Session ID: afbd3da44850deef0072e3962c124750
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at WebAutomation.GenericUtilities.CommonFunctions.selectPollOption(CommonFunctions.java:85)
-	at WebAutomation.PageObjects.HomePage.getPollMessage(HomePage.java:74)
-	at WebAutomation.Testcases.CommunityPollTest.communityPollwithLogin(CommunityPollTest.java:27)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
+	at WebAutomation.PageObjects.RegistrationConfirmationPage.getMessage(RegistrationConfirmationPage.java:25)
+	at WebAutomation.Testcases.UserRegistration.userRegister(UserRegistration.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -258,7 +254,7 @@ Session ID: afbd3da44850deef0072e3962c124750
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>6</td>
-<td>WebAutomation.Testcases.CommunityPollTest@169e6180</td></tr>
+<td>WebAutomation.Testcases.UserRegistration@1e6454ec</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -269,15 +265,15 @@ Session ID: afbd3da44850deef0072e3962c124750
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='WebAutomation.Testcases.CommunityPollTest.communityPollwithoutLogin()'><b>communityPollwithoutLogin</b><br>Test class: WebAutomation.Testcases.CommunityPollTest<br>Parameters: {password=hurtlocker, email=awaar@gmail.com, option=Good}</td>
+<td title='WebAutomation.Testcases.UserRegistration.userLogin()'><b>userLogin</b><br>Test class: WebAutomation.Testcases.UserRegistration<br>Parameters: {password=hurtlocker, email=awaar@gmail.com}</td>
 <td></td>
-<td>0</td>
-<td>WebAutomation.Testcases.CommunityPollTest@169e6180</td></tr>
+<td>1</td>
+<td>WebAutomation.Testcases.UserRegistration@1e6454ec</td></tr>
 <tr>
-<td title='WebAutomation.Testcases.CommunityPollTest.communityPollwithoutLogin()'><b>communityPollwithoutLogin</b><br>Test class: WebAutomation.Testcases.CommunityPollTest<br>Parameters: {password=hurtlocker, email=eywaa@gmail.com, option=Excellent}</td>
+<td title='WebAutomation.Testcases.UserRegistration.userLogin()'><b>userLogin</b><br>Test class: WebAutomation.Testcases.UserRegistration<br>Parameters: {password=hurtlocker, email=eywaa@gmail.com}</td>
 <td></td>
-<td>0</td>
-<td>WebAutomation.Testcases.CommunityPollTest@169e6180</td></tr>
+<td>1</td>
+<td>WebAutomation.Testcases.UserRegistration@1e6454ec</td></tr>
 </table><p>
 </body>
 </html>

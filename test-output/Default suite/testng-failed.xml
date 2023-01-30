@@ -6,7 +6,7 @@
       <class name="WebAutomation.Testcases.CommunityPollTest">
         <methods>
           <include name="tearDown"/>
-          <include name="communityPollwithLogin" invocation-numbers="1 2 3"/>
+          <include name="communityPollwithLogin" invocation-numbers="0 1"/>
           <include name="initDriver"/>
         </methods>
       </class> <!-- WebAutomation.Testcases.CommunityPollTest -->

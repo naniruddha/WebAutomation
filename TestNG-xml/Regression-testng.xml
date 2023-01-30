@@ -11,6 +11,11 @@
 			<class name="WebAutomation.Testcases.CurrencyConversion" />
 		</classes>
 	</test>
+	<test name="Registration and Login Test">
+		<classes>
+			<class name="WebAutomation.Testcases.UserRegistration" />
+		</classes>
+	</test>
 	<test thread-count="5" name="Community Poll Test">
 		<classes>
 			<class name="WebAutomation.Testcases.CommunityPollTest" />
